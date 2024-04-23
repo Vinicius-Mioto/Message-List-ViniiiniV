@@ -1,0 +1,19 @@
+.headerBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding: 19px 24px;
+    margin: 0 auto;
+
+    h1{
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+    }
+
+    a{
+        color: white;
+    }
+}

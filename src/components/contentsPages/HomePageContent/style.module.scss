@@ -1,0 +1,12 @@
+.sectionBox{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 600px) {
+    .sectionBox{
+        flex-direction: row;
+        justify-content: center;
+        gap: 25px;
+    }
+}

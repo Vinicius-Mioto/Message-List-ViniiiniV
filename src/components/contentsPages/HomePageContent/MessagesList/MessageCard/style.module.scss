@@ -1,0 +1,31 @@
+.cardBox{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 15px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 8px;
+    background-color: rgb(77, 77, 77);
+
+    > div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        button{
+            color: white;
+        }
+
+        h2{
+            font-size: 22px;
+            color: white;
+        }
+    }
+
+    p{
+        color: rgb(190, 190, 190);
+        font-size: 18px;
+    }
+}
+
